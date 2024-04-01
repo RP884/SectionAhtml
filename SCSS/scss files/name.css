@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  width: auto;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main h1 {
+  font-size: 20;
+  color: blue;
+  color: white;
+}
+.main h1:hover {
+  color: red;
+}
+.main p {
+  font-size: 20px;
+  color: blue;
+  color: blue;
+  letter-spacing: 10px;
+  font-family: cursive;
+  text-decoration: line-through;
+}/*# sourceMappingURL=name.css.map */

@@ -1,0 +1,117 @@
+body {
+    background-color: lightblue;
+    margin: 1px;
+    padding: 10px;     
+    
+}
+.navbar{
+
+    background-color: gray;
+    padding: 10px;
+}
+.navbar a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-right: 20px;
+
+}
+.navbar a:hover {
+    border:1px solid white;
+    border-radius: 2px;
+}
+.parent{
+    width: 100%;
+    height: 50vh ;
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; 
+        align-item: center;
+    */
+
+}
+.child1{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background-color: lightcoral;
+   
+}
+.child2{
+    height: 150px;
+    width: 170px;
+    background-color: aqua;
+}
+.child3{
+    height: 150px;
+    width: 190px;
+    background-color: lightgreen;
+}
+.title{
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    justify-content: end;
+    align-items: end;
+}
+.title .PHOTO{
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    justify-content: end;
+    align-items: end;
+
+}
+/* position examples below */
+/* .position-example{ 
+    width: 100%;
+    height: 40vh;
+    background-color: red;
+    display: flex;
+    position: relative;
+}
+.position1{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+.position2{
+    width: 70px;
+    height: 50px;
+    background-color: blue;
+
+}*/
+.para{
+    text-align: justify;
+    text-align-last:center;
+    text-transform: lowercase;
+    line-height: 20px;
+    word-spacing: 10px;
+}
+.card{
+    border:1px solid black;
+    box-shadow: 5px 5px 5px 5px ;
+
+}
+img{
+    display: block;
+    border: 5px solid black;
+    border-radius:50px ;
+    width: 100%;
+    max-width: max-content;
+    max-height: max-content;
+    transition-property: all;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+    
+
+
+
+
+
